@@ -7,57 +7,81 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="css/reset.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/js-image-slider.css" />
+    <script src="js/js-image-slider.js" type="text/javascript"></script>
   </head>
   <body>
+
+
   
 <div class="wrapper">  
+    
     <div class="leftmenubar_container">
-      <div class="logo_wrapper"><h1>LOGO</h1></div>
+      <a href="#">
+        <div class="logo_wrapper"></div>
+      </a>
 
       <nav>
         <ul>
-          <a href="#"><li>About</li></a>
-          <a href="#"><li>Company</li></a>
-          <a href="#"><li>Services</li></a>
-          <a href="#"><li>Partners</li></a>
-          <a href="#"><li>Contact</li></a>
+          <a href="#"><li>ABOUT</li></a>
+          <a href="#"><li>COMPANY</li></a>
+          <a href="#"><li>SERVICES</li></a>
+          <a href="#"><li>PARTNERS</li></a>
+          <a href="#"><li>CONTACT</li></a>
         </ul> 
       </nav>
 
       <div class="socialmedia_wrapper">
-        <nav>
-          <ul>
-            <a href="#"><li class="socialmediabutton">LinkedIn</li></a>
-            <a href="#"><li class="socialmediabutton">Twitter</li></a>
-            <a href="#"><li class="socialmediabutton">Facebook</li></a>
-          </ul>
-        </nav>
+        <a href="#">
+          <div class="linkedin"></div>
+        </a>
+
+        <a href="#">
+          <div class="twitter"></div>
+        </a>
+
+        <a href="#">
+          <div class="facebook"></div>
+        </a>
+
+        <div class="copyright"> © ALL RIGHTS RESERVED | SAAS STEPS</div>
+        
       </div>
+
+
+
     </div>
 
 
     <div class="maincontent_container"> 
       <div class="slider_wrapper">
-        <div class="slider"></div>
+        <div class="slider">
+          <img src="http://www.lorempixel.com/1200/375" alt="Caption for slide 1" />
+          <!-- <img src="http://www.lorempixel.com/1200/333" />
+          <img src="http://www.lorempixel.com/1200/350" />
+          <img src="http://www.lorempixel.com/1200/400" alt="Caption for slide 5" />
+ -->
+        </div>
       </div>
 
       <div class="bottomcontent_wrapper"> 
         <div class="newsevents_container"> 
           <h2>News & Events</h2>
 
-          <div class="newsevents_post"> 
+          <div class="newsevents_post">  
             <ul>
-              <li>July</li>
-              <li>1</li>
+              <li id="month">July</li>
+              <li id="date">1</li>
             </ul>
+              
             <p>
               NEWS | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus lectus, placerat dictum justo quis, blandit luctus ligula. Cras euismod, felis imperdiet vestibulum imperdiet, quam orci venenatis lectus, non gravida massa nulla sed libero. </p> 
           </div>
 
           <div class="newsevents_post"> 
             <ul>
-              <li>July</li>
-              <li>16</li>
+              <li id="month">July</li>
+              <li id="date">16</li>
             </ul>
             <p>
               EVENT | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus lectus, placerat dictum justo quis, blandit luctus ligula. Cras euismod, felis imperdiet vestibulum imperdiet, quam orci venenatis lectus, non gravida massa nulla sed libero. </p> 
@@ -65,7 +89,7 @@
 
         </div>
 
-
+        <div class="hordiv"></div>
 
         <div class="testimonials_container">
           <h2>Testimonials</h2>
@@ -83,46 +107,26 @@
         
         </div>
 
+        <div class="hordiv"></div>
+
 
         <div class="blog_container">
           <h2>Blog</h2>
           <div class="blogpostwrapper">
-            <div class="b_img"><img src="http://lorempixel.com/400/200/technics" /></div>
+            <div class="b_img"><img src="http://lorempixel.com/250/200/technics" /></div>
             <div class="b_post">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus lectus, placerat dictum justo quis, blandit luctus ligula.”
             </div>
-            
-          </div>
-
-          <div class="blogpostwrapper">
-            <div class="b_img"><img src="http://lorempixel.com/400/250/technics" /></div>
-            <div class="b_post">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus lectus, placerat dictum justo quis, blandit luctus ligula.”
-            </div>
-            
           </div>
 
           
-
-
-
-
-
+          <div class="blogpostwrapper">
+            <div class="b_img"><img src="http://lorempixel.com/250/250/technics" /></div>
+            <div class="b_post">“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lectus lectus, placerat dictum justo quis, blandit luctus ligula.”
+            </div>
+          </div>
         </div>
       
-
-
-
-
-
-
-
       </div>
-
-
-
-
-
-
-
 
 
     </div>
@@ -144,7 +148,8 @@
 
 
 
-
+    <script src="js/jquery.js"></script>
+    <script src="js/app.js"></script>
 
   </body>
 </html>
