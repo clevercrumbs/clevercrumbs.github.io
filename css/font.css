@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'varela';
+    src: url('../fonts/varela/Varela-Regular-webfont.eot');
+    src: url('../fonts/varela/Varela-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/varela/Varela-Regular-webfont.woff') format('woff'),
+         url('../fonts/varela/Varela-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/varela/Varela-Regular-webfont.svg#Pacifico') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'LiberationSans';
+    src: url('../fonts/LiberationSans/LiberationSans-Regular-webfont.eot');
+    src: url('../fonts/LiberationSans/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LiberationSans/LiberationSans-Regular-webfont.woff') format('woff'),
+         url('../fonts/LiberationSans/LiberationSans-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/LiberationSans/LiberationSans-Regular-webfont.svg#Code Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
