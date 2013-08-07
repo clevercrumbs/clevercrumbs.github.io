@@ -539,12 +539,12 @@ input{
 
 .wrapper .maincontent_container #partners .partnerdiv_wrapper p{
 	font-family: LiberationSans, sans-serif;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	line-height: 25px;
 	text-align: left;
 	/*text-transform: uppercase;*/
 	margin-bottom: 20px;
-	margin-top: 20px;
+	margin-top: 50px;
 	clear: both;
 
 
