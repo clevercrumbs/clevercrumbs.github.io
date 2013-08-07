@@ -147,14 +147,14 @@ body{
 .wrapper .maincontent_container{
 	width: 1250px;
 	overflow: hidden;
-	/*height: 110%;*/
+	
 	float: right;
 	position: relative;
 	z-index: 3;
 	background-image: url(../img/bg_small.jpg);
-	/*background-color: rgba(65,64,66,1);*/
+	
 	box-shadow: inset 0px 0px 8px 3px rgba(50,50,50,0.8);
-	/*border: 2px dotted black;*/
+	
 }
 
 
@@ -169,6 +169,7 @@ body{
 	left: 200px;
 	letter-spacing: 0.1em;
 	font-weight: lighter;
+	
 }
 
 
@@ -531,19 +532,23 @@ input{
 .wrapper .maincontent_container #partners .partnerdiv_wrapper{
 	width: 1000px;
 	overflow: hidden;
-	margin: 50px auto;
+	margin: 100px auto;
 	/*border: 1px solid black;*/
 
 }
-/*.wrapper .maincontent_container #partners .partnerdiv_wrapper p{
-	font-family: varela, sans-serif;
-	font-size: 20px;
-	text-align: center;
-	text-transform: uppercase;
-	margin-bottom: 50px;
+
+.wrapper .maincontent_container #partners .partnerdiv_wrapper p{
+	font-family: LiberationSans, sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	text-align: left;
+	/*text-transform: uppercase;*/
+	margin-bottom: 20px;
+	margin-top: 20px;
+	clear: both;
 
 
-}*/
+}
 
 
 .wrapper .maincontent_container #partners .partnerdiv{
@@ -808,6 +813,7 @@ input{
 	text-align: center;
 	text-transform: uppercase;
 	font-family: varela, sans-serif;
+
 }
 
 
