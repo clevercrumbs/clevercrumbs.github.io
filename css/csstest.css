@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration:none;    
 }
@@ -15,7 +19,7 @@ h1{
 
 h2{
     font-family:europa-regular, sans-serif;
-    letter-spacing:0.1em;    
+    letter-spacing:0.06em;    
     font-size:18px;
 }
 
@@ -23,17 +27,7 @@ h3{
     font-family:europa-regular, sans-serif;
     font-size:15px;
     line-height:22px;
-    letter-spacing: 0.3em;
 }
-
-h4{
-    font-family:open sans, sans-serif;
-    font-size:12px;
-    letter-spacing:0.07em;
-    font-weight:300;
-    text-transform:uppercase;
-}
-
 
 h4#navtabs{
     color:#97cad1;
@@ -50,16 +44,12 @@ h4#navtabs:hover{
 }
 
 p{
+    font-family:europa-regular,sans-serif;
     font-size:12px;
     letter-spacing:0.03em;
     line-height:17px;
     text-transform:none;
 }
-
-
-
-
-/*home/landing*/
 
 .wrapper{
     width: 100%;
@@ -187,12 +177,12 @@ nav#socialnav{
 }
 
 .be{
-    padding-top:160px;
+    padding-top:180px;
 }
 
 .formula{
     margin-top:20px;
-    padding-bottom:200px;
+    padding-bottom:300px;
 }
 
 a.scrollarrow{
@@ -230,55 +220,81 @@ div.arrow.bounce {
 
 
 
-.dbox{
+#dbox.dbox{
     width:100%;
     margin-top:-20px;
 }
 
+
+
 .desc{
     margin:auto;
-    padding:80px 0px;
+    padding:120px 0px;
     width:80%;
     text-align:center;
 }
 
 #servicesbox{
     margin-top:-10px;
+    width:100%;
+    background-color:#f8f8f8;
+ 
 }
 
 .sBox{
-    width:auto;
+    width:90%;
     margin:auto;
-    height:450px;
-    background-color:#f8f8f8;    
+    height:550px;
+        
 }
+
+
 
 ul li#sAll{
     display:inline-block;
     float:left;
-    width:23%;
+    width:250px;
     background-color:white;
-    margin-right:10px;
-    margin-top:60px;
+    margin-top:100px;
+    margin-right:15px;
     text-align:center;
     text-transform:uppercase;
     color: #0f3954;
     box-shadow:0px 1px 7px rgba(41,40,42,0.2);
 }
 
+
+
+h2#ser{
+    width:85%;
+    margin:auto;
+    margin-top:25px;
+    line-height:24px;
+    
+}
+
 #pSer{
     padding:0px 30px;
+    
+}
+
+.stc,.elr,.ess{
+    height:150px;  
+}
+
+.eish{
+    height:146px;
 }
 
 #contactbox{
     height:450px;
-    margin-bottom:275px;
+    margin-bottom:105px;
 }
 
 table#contacttbl{
     width:55%;
     margin:auto;
-    margin-top:80px;
+    margin-top:120px;
     background-color:white;
     box-shadow:0px 1px 7px rgba(41,40,42,0.2);
     text-align:center;
@@ -324,7 +340,7 @@ textarea{
     padding-bottom:15px;
 }
 
-input#sendbtn,input#sibtn{
+input#sendbtn{
     width:100px;
     background-color:#A8D04B;
     color:white;
@@ -337,10 +353,9 @@ input#sendbtn,input#sibtn{
     margin-bottom:30px;
 }
 
-input#sendbtn:hover,input#sibtn:hover{
+input#sendbtn:hover{
     background-color:rgba(168,208,75,0.75);
 }
-
 
 #quote{
     height:175px;
