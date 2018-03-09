@@ -60,6 +60,12 @@ p{
     margin-top:-70px;
 }
 
+.navbar-inverse{
+    background-color: transparent;
+    border:none;
+    border-color:transparent;
+}
+
 .navbar-header{
     width: 100%;
     height: 75px;
