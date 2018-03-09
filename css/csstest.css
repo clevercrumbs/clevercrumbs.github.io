@@ -10,20 +10,20 @@ ul li{
     list-style-type:none;
 }
 
-h1{
+h1#be{
     font-family:europa-bold, sans-serif;
     letter-spacing:0.08em;
     line-height:45px;
     font-size:35px;
 }
 
-h2{
+h2#formula{
     font-family:europa-regular, sans-serif;
     letter-spacing:0.06em;    
     font-size:18px;
 }
 
-h3{
+h3#h3desc{
     font-family:europa-regular, sans-serif;
     font-size:15px;
     line-height:22px;
