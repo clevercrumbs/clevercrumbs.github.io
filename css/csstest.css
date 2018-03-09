@@ -145,7 +145,7 @@ nav#socialnav{
     width:70px;
     display:inline-block;
     margin-top:7px;
-    
+    margin-left:20px;
 }
 
 .emailimg,.linkedinimg{
@@ -257,7 +257,7 @@ ul li#sAll{
     float:left;
     width:250px;
     background-color:white;
-    margin-top:250px;
+    margin-top:110px;
     margin-right:15px;
     text-align:center;
     text-transform:uppercase;
