@@ -37,39 +37,58 @@
   <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-bottom">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a href="index.html">
-      <div class="logowrapper">
-        <img id="logo" class="logo" src="sslogo_white.png">
-        <div id="SS" class="SS">SAASTEPS</div>
-      </div>
-    </a>        
-    </div>
-    <div class="menu">
-      <ul class="nav navbar-nav">
-          <li class="hometab" id=""><a href="index.html"><h4 id="navtabs">Home</h4></a></li>
-          <li class="servicestab"><a href="#servicesbox"><h4 id="navtabs">Services</h4></a></li>
-          <li class="requesttab"><a href="requesttest.html"><h4 id="navtabs">Request</h4></a></li>
-          <li class="signintab"><a href="signintest.html"><h4 id="navtabs">Sign In</h4></a></li>
-          <li class="contacttab"><a href="#contactbox"><h4 id="navtabs">Contact</h4></a></li>
-      </ul>
-    </div>
-    
-  </div>
-  
-  <div class="footer">
-  <div class="footernav">
-      <div class="copyright">&#169; SAASTEPS 2018</div>
-      <nav id="socialnav">
-        <ul>
-              <a href="mailto:tim@saasteps.com"><li class="emailimg"><img id="emailimg" src="socialnav_email.png"></li></a>
-              <a href="https://www.linkedin.com/in/tim-beck-1248751/"><li class="linkedinimg"><img id="linkedinimg" src="socialnav_linkedin.png"></li></a>
-            </ul>  
-      </nav>
-    </div>   
-</div>
-</nav>
+        
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="index.html">
+            <div class="logowrapper">
+              <img id="logo" class="logo" src="sslogo_white.png">
+              <div id="SS" class="SS">SAASTEPS</div>
+            </div>
+          </a>        
+          </div>
+          
+          <ul id="ulmenu">
+            <li id="limenu">
+              <label for="dd">
+                <div class="menu">
+                  <div class="container" onclick="myFunction(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                   </div>
+                  
+                </div>
+              </label>
+              
+              <input type="checkbox" id="dd" hidden>
+              
+                  <ul class="nav navbar-nav dropdown">
+                      <li id="menuall" class="hometab"><a href="index.html"><h4 id="navtabs">Home</h4></a></li>
+                      <li id="menuall" class="servicestab"><a href="index.html#servicesbox"><h4 id="navtabs">Services         </h4></a></li>
+                      <li id="menuall" class="requesttab"><a href="requesttest.html"><h4 id="navtabs">Request</h4></a>          </li>
+                      <!-- <li class="signintab"><a href="signintest.html"><h4 id="navtabs">Sign In</h4></a></li> -->
+                      <li id="menuall" class="contacttab"><a href="index.html#icontactbox"><h4 id="navtabs">Contact</h4></a></li>
+                  </ul>
+              </li>
+              
+          </ul>
+        </div>
+        
+        <div class="footer">
+          <div class="footernav">
+            <div class="copyright">&#169; SAASTEPS 2018</div>
+            <nav id="socialnav">
+              <ul>
+                    <a href="mailto:tim@saasteps.com"><li class="emailimg"><img id="emailimg" src="socialnav_email.png"></li></a>
+                    <a href="https://www.linkedin.com/in/tim-beck-1248751/"><li class="linkedinimg"><img id="linkedinimg" src="socialnav_linkedin.png"></li></a>
+                  </ul>  
+            </nav>
+            </div> 
+          </div>    
+        </div>
+
+  </nav>
 
 
 
@@ -81,7 +100,7 @@
           <h1 id="be">BE EMPOWERED AND CONNECTED TO FIND THE RIGHT PATH</h1>
         </div>
         <div class="formula">
-          <h2 id="formula">EXPERT SALES TEAM + PREMIER PARTNERS = OUTSTANDING RESULTS</h2>
+          <h2 id="formula">Expert Sales Team + Premier Partners = Outstanding Results</h2>
         </div>
         <div class="arrow bounce">
   <a class="scrollarrow" href="#dbox"><div class="boxarrow"></div></a>
@@ -92,9 +111,18 @@
     </div>
     <div class="dbox" id="dbox">
       <div class="desc">
-          <h3 id="h3desc">Escalate your company’s hyper sales growth with SAASTEPS extended team of Independent Sales Hunters (ISH). Formally trained by our premier working managers, leveraging our ISHs will maximize results with focus on the needs built to support your best processes. 
+          <h3 id="h3desc">Escalate your company’s sales growth with SAASTEPS extended team of Independent Sales Hunters (ISH). Formally trained by our premier working managers, leveraging our ISHs will maximize results with focus on the needs built to support your best processes. 
             </h3>
         </div>
+      <div class="imtim">
+          <img id="profiletim" src="profiletim">
+          <div id="aboutdesc">
+            <div><h1 class="hi">Hi! I'm Tim, expert in the QTC space</h1></div>
+            <div><p class="paboutdesc">With over 18 years experience, I’ve dealt with 100+ companies in identifying gaps in their existing processes, mapping their strategic initiatives and providing insight for their end-to-end scalable solutions.</p></div>
+            <div><h2 class="letme">Let me help you bridge those missed connections</h2></div>
+          </div>
+      </div>  
+        
     </div>
     <div id="servicesbox">
       <div class="sBox">
@@ -102,41 +130,39 @@
         <ul class="allSer">
           <li id="sAll">
                     <div id="sOne">
-                      <br>
-                      <br> 
-                      <h2 id="ser">Seed2C</h2>
+                      <br><br>
+                      
+                      <h2 class="h2stc" id="ser">Seed2C</h2>
                         <br>
-                       <br>
-                        <p id="pSer" class="stc">Our Seed2C service will help you grow revenue to take your company to the next level. With our extended Enterprise SDR Team, there is no initial out of pocket expense.</p>
-                       <br>
+                        <p id="pSer" class="stc">Help you grow revenue to take your company to the next level. With our extended Enterprise SDR Team, there is no initial out of pocket expense.</p>
+                       
                        
                     </div>
                   </li>
                   <li id="sAll">
                     <div id="sTwo">
-                      <br>
+                      <br><br>
                         <h2 id="ser">Executive Lead Referral</h2>
-                        <br><br>
-                        <p id="pSer" class="elr">Let us help you initiate your path to success. Our Executive Lead Referral Service will provide you qualified introductions to Global 5000 companies.</p>
-                       <br>
+                        <br>
+                        <p id="pSer" class="elr">Let us help you initiate your path to success. Our Executive Lead Referral Service will provide you qualified introductions.</p>
                      </div>
                   </li>
                   <li id="sAll">
                     <div id="sThree">
-                      <br>
+                      <br><br>
                         <h2 id="ser">Executive Sales Support</h2>
-                        <br><br>
-                        <p id="pSer" class="ess">Give your sales team the growth support it needs with our Executive Enterprise Sales Hunters. Not only will we provide leads but we will also help augment some of your sales team’s work.</p>
-                       <br>
+                        <br>
+                        <p id="pSer" class="ess">Give your sales team the growth support it needs by augmenting your sales team’s work.</p>
+                       
                     </div>
                   </li>
                   <li id="sAll">
                     <div id="sFour">
             <br>
-                        <h2 id="ser">Executive Independent Sales Hunter (ISH)</h2>
+                        <h2 class="h2ISH" id="ser">Executive Independent Sales Hunter (ISH)</h2>
                         <br>
-                        <p id="pSer" class="eish">Get the best of all worlds with our topnotch ISHs. From self-starter hunted leads to qualifying clients to closing contracts, they are subject matter experts who will cover it all. </p>
-                       <br>
+                        <p id="pSer" class="eish">Get the best of all worlds with our top-notch ISHs. They are subject matter experts who will cover it all. </p>
+                       
                         
                      </div>
                   </li>                 
@@ -145,29 +171,29 @@
     </div>  
     </div>
  
-    <div id="contactbox">
-      <form id="formContact" method="#" action="#">
-      <table id="contacttbl">
+    <div id="icontactbox">
+      <form id="iformContact" method="#" action="#">
+      <table id="icontacttbl">
         <tr>
           <td>
-            <input id="fullname" name="fullname" type="text" placeholder="Full name *"/>
+            <input id="ifullname" name="fullname" type="text" placeholder="Full name *"/>
           </td>
         </tr>
         <tr>
           
           <td>
-            <input type="text" id="email" name="email" placeholder="Email *"/>
-            <input type="text" id="phone" name="phone" placeholder="Phone *"/>           
+            <input type="text" id="iemail" name="email" placeholder="Email *"/>
+            <input type="text" id="iphone" name="phone" placeholder="Phone *"/>           
           </td>
         </tr>
         <tr>
           <td>
-            <input id="company" name="company" type="text" placeholder="Company *"/>
+            <input id="icompany" name="company" type="text" placeholder="Company *"/>
           </td>
         </tr>
         <tr>
           <td>
-            <input id="areasofint" name="areasofint" type="text" placeholder="Areas of interest *"/>
+            <input id="iareasofint" name="areasofint" type="text" placeholder="Areas of interest *"/>
           </td>
         </tr>
         <tr>
